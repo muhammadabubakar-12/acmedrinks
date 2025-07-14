@@ -35,27 +35,31 @@ Includes a customer-facing storefront, admin dashboard, real-time chat, order ma
 
 ---
 
+## Project Structure
+
+```text
 acmedrinks/
-├── app/ # Next.js app directory (pages, API routes, layouts)
-│ ├── admin/ # Admin dashboard, analytics, orders, products, chat, etc.
-│ ├── api/ # API routes (auth, products, orders, chat, etc.)
-│ ├── auth/ # Sign in/up pages
-│ ├── chat/ # Customer chat page
-│ ├── checkout/ # Checkout page
-│ ├── dashboard/ # User dashboard
-│ ├── product/ # Product listing and detail pages
-│ └── globals.css # Global styles
-├── components/ # Reusable React components (UI, admin, chat, etc.)
-├── hooks/ # Custom React hooks
-├── lib/ # Utility libraries (auth, db, imagekit, pusher, etc.)
-├── prisma/ # Prisma schema
-├── public/ # Static assets (images, logos)
-├── scripts/ # Utility scripts (seeding, client generation)
-├── styles/ # Additional styles
-├── types/ # TypeScript type definitions
+├── app/                # Next.js app directory (pages, API routes, layouts)
+│   ├── admin/          # Admin dashboard, analytics, orders, products, chat, etc.
+│   ├── api/            # API routes (auth, products, orders, chat, etc.)
+│   ├── auth/           # Sign in/up pages
+│   ├── chat/           # Customer chat page
+│   ├── checkout/       # Checkout page
+│   ├── dashboard/      # User dashboard
+│   ├── product/        # Product listing and detail pages
+│   └── globals.css     # Global styles
+├── components/         # Reusable React components (UI, admin, chat, etc.)
+├── hooks/              # Custom React hooks
+├── lib/                # Utility libraries (auth, db, imagekit, pusher, etc.)
+├── prisma/             # Prisma schema
+├── public/             # Static assets (images, logos)
+├── scripts/            # Utility scripts (seeding, client generation)
+├── styles/             # Additional styles
+├── types/              # TypeScript type definitions
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 ---
 
